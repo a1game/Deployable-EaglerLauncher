@@ -1,7 +1,5 @@
 # EaglerCraft Client Selector
 
-https://burnedpopcorn.github.io/Client_Select.html
-
 A website that hosts and provides many vanilla and modified EaglerCraft Clients with a clean UI, and a 1.8 server list
 
 Modified Clients Included:
@@ -29,6 +27,7 @@ Thanks to:
 * EaglerCrackX Archive for the server list (https://eaglercrack.vercel.app/)
 * PeytonPlayz595 for Minecraft Indev WebGL (https://github.com/PeytonPlayz595/Minecraft-Indev-WebGL/tree/main)
 * radmanplays for releasing EaglerForge Build v1.2.5 (https://github.com/eaglerforge/EaglerForge-builds/releases/tag/v1.2.5)
+* burnedpopcorn for the original client select menu (https://github.com/burnedpopcorn/burnedpopcorn.github.io)
 
 I will most likely not update the clients themselfs unless the clients stop working
 
