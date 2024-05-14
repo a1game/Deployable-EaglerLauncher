@@ -7,12 +7,36 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <title>Modified EaglerCraft Clients</title>
         <style>
-        .abtn {
-            background-image: url("/images/ButtonNorm.png");
-        }
-        .abtn:hover {
-            background-image: url("/images/ButtonHover.png");
-        }
+            /* Include the R.otf font */
+            @font-face {
+                font-family: 'R';
+                src: url('path_to_your_fonts/R.otf') format('opentype');
+            }
+
+            body {
+                font-family: 'R', sans-serif; /* Use the R.otf font for all text */
+            }
+
+            /* Update the abtn class for the buttons */
+            .abtn {
+                display: block;
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+                background-image: url("/images/ButtonNorm.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat; /* Prevent background image from repeating */
+                border: none;
+                margin-bottom: 10px;
+                font-size: 1.25rem;
+            }
+
+            .abtn:hover {
+                background-image: url("/images/ButtonHover.png");
+            }
         </style>
     </head>
     <body>
@@ -20,17 +44,17 @@
             <img class="img-fluid rounded-circle mb-5" src="/images/minecraft.png" width="150" alt="Your Name">
             <h1 class="mb-5">Modified EaglerCraft Clients</h1>
             <div class="col-md-6 mx-auto d-grid gap-2 mb-5">
-                <a class="abtn btn btn-primary" href="/PiClient-v1 (1).1-20230123-intl.html">Pi Client</a>
-                <a class="abtn btn btn-primary" href="/OddFuture_Client.html">OddFuture Client</a>
-                <a class="abtn btn btn-primary" href="/Nebula.html">Nebula</a>
-                <a class="abtn btn btn-primary" href="/NitClient.html">NitClient</a>
-                <a class="abtn btn btn-primary" href="/DragonX_V2_International.html">DragonX V2</a>
-                <a class="abtn btn btn-primary" href="/N0VA_CLIENT.html">N0VA Client</a>
-                <a class="abtn btn btn-primary" href="/Kerosene_Client.html">Kerosene Client</a>
-                <a class="abtn btn btn-primary" href="/Solar_3.5.html">Solar Client</a>
-                <a class="abtn btn btn-primary" href="/precisionclient-beta_0.1.8.4+minimal.html">Precision Client</a>
-                <a class="abtn btn btn-primary" href="/servers.html">Server List for EaglerCraft 1.8</a>
-                <a class="abtn btn btn-primary" href="/Vanilla_Client_Select.html">Vanilla Clients</a>
+                <a class="abtn" href="/PiClient-v1 (1).1-20230123-intl.html">Pi Client</a>
+                <a class="abtn" href="/OddFuture_Client.html">OddFuture Client</a>
+                <a class="abtn" href="/Nebula.html">Nebula</a>
+                <a class="abtn" href="/NitClient.html">NitClient</a>
+                <a class="abtn" href="/DragonX_V2_International.html">DragonX V2</a>
+                <a class="abtn" href="/N0VA_CLIENT.html">N0VA Client</a>
+                <a class="abtn" href="/Kerosene_Client.html">Kerosene Client</a>
+                <a class="abtn" href="/Solar_3.5.html">Solar Client</a>
+                <a class="abtn" href="/precisionclient-beta_0.1.8.4+minimal.html">Precision Client</a>
+                <a class="abtn" href="/servers.html">Server List for EaglerCraft 1.8</a>
+                <a class="abtn" href="/Vanilla_Client_Select.html">Vanilla Clients</a>
             </div>
             <p>Launcher by a1game</p>
         </div>
